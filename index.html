@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>KJ法ツールサンプル</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/4.3.0/fabric.min.js"></script>
+    <style>
+        canvas {
+            border: 1px solid #999;
+        }
+        .colorButton {
+            width: 20px;
+            height: 20px;
+            display: inline-block;
+            margin: 2px;
+        }
+        #currentColorDisplay {
+            width: 40px;
+            height: 40px;
+            border: 1px solid #000;
+            display: inline-block;
+            margin-left: 10px;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+    <div id="colorButtons"></div>
+    <div id="currentColorDisplay"></div>
+    <canvas id="kjCanvas" width="800" height="600"></canvas>
+
+    <script src="script.js"></script>
+</body>
+</html>
